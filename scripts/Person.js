@@ -3,6 +3,7 @@ class Person {
     this.firstName = fName;
     this.lastName = lName;
     this.age = age;
+    console.log('Init Person!!!');
   }
 
   fullName() {
@@ -10,5 +11,4 @@ class Person {
   }
 }
 
-const instructor = new Person('Myron', 'Schippers', 37);
-console.log(instructor);
+export default Person;
